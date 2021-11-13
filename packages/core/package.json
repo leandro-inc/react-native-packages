@@ -1,0 +1,36 @@
+{
+  "name": "@app/core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.tsx",
+  "module": "index.tsx",
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "jest",
+    "test:watch": "yarn jest --watch",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@app/components": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/react-native": "^0.65.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-config": "^0.66.2",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "eslint-plugin-typescript": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
