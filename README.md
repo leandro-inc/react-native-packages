@@ -1,4 +1,4 @@
-# react-native-modules
+# react-native-packages
 A react-native template for many apps and many packages.
 
 :construction:
